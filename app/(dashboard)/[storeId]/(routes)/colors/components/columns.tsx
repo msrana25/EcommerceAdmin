@@ -12,7 +12,7 @@ export type ColorColumn = {
   createdAt: string;
 }
 
-export const columns: ColumnDef<SizeColumn>[] = [
+export const columns: ColumnDef<ColorColumn>[] = [
   {
     accessorKey: "name",
     header: "Name",
