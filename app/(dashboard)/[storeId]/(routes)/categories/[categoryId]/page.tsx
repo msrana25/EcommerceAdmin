@@ -5,11 +5,11 @@ import { CategoryForm } from "./components/category-form";
 const CategoryPage = async ({
   params
 }: {
-  params: { categoryId: string, storeId: string }
+  params: { cateoryId: string, storeId: string }
 }) => {
   const category = await prismadb.category.findUnique({
     where: {
-      id: params.categoryId
+      id: params.cateoryId
     }
   });
 

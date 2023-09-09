@@ -43,7 +43,7 @@ export async function PATCH(
         const{ 
             name, 
             price,
-            categoryId,
+            cateoryId,
             colorId,
             sizeId,
             images,
@@ -69,7 +69,7 @@ export async function PATCH(
 
         }
 
-        if (!categoryId){
+        if (!cateoryId){
             return new NextResponse("Category Id is required", {status: 400});
 
         }
@@ -105,7 +105,7 @@ export async function PATCH(
             data: {
                 name,
                 price,
-                categoryId,
+                cateoryId,
                 colorId,
                 sizeId,
                 images: {
