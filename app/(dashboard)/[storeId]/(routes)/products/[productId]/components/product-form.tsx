@@ -27,7 +27,7 @@ const formSchema = z.object({
     name: z.string().min(1),
     images: z.object({ url: z.string() }).array(),
     price: z.coerce.number().min(1),
-    cateoryId: z.string().min(1),
+    categoryId: z.string().min(1),
     colorId: z.string().min(1),
     sizeId: z.string().min(1),
     isFeatured: z.boolean().default(false).optional(),
@@ -73,7 +73,7 @@ export const ProductForm: React.FC<ProductFormProps> = ({
             name: '',
             images: [],
             price: 0,
-            cateoryId: '',
+            categoryId: '',
             colorId: '',
             sizeId: '',
             isFeatured: false,
@@ -190,7 +190,7 @@ export const ProductForm: React.FC<ProductFormProps> = ({
 
                         <FormField
                             control={form.control}
-                            name="cateoryId"
+                            name="categoryId"
                             render={({ field }) => (
                                 <FormItem>
                                     <FormLabel>Category</FormLabel>
