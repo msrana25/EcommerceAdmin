@@ -1,4 +1,4 @@
-# This repository is for a Full Stack E-Commerce website + Dashboard & CMS built using Next.js 13 App Router, React, Tailwind, Prisma, MySQL.
+# This repository is for a Full Stack E-Commerce Admin Dashboard & CMS built using Next.js 13 App Router, React, Tailwind, Prisma, MySQL
 For DEMO, use [Stripe Testing Cards](https://stripe.com/docs/testing)
 
 # Key Features:
