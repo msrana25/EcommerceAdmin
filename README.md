@@ -1,8 +1,8 @@
 # This repository is for a Full Stack E-Commerce Admin Dashboard & CMS built using Next.js 13 App Router, React, Tailwind, Prisma, MySQL
-For DEMO, use [Stripe Testing Cards](https://stripe.com/docs/testing)
-DEMO Credentials for Admin Login:-
-username:- pipanod373@cohodl.com
-password:- admindash
+- For DEMO, use [Stripe Testing Cards](https://stripe.com/docs/testing)
+- DEMO Credentials for Admin Login:-
+- username:- pipanod373@cohodl.com
+- password:- admindash
 # Key Features:
 
 - Utilizes Shadcn UI for the Admin!
