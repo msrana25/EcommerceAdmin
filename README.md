@@ -2,8 +2,7 @@
 
 - For DEMO, use [Stripe Testing Cards](https://stripe.com/docs/testing)
 - DEMO Credentials for Admin Login:-
-- username:- pipanod373@cohodl.com
-- password:- admindash
+
 # Key Features:
 
 - Utilizes Shadcn UI for the Admin!
