@@ -1,7 +1,8 @@
-### This repository is for a Full Stack E-Commerce website + Dashboard & CMS built using Next.js 13 App Router, React, Tailwind, Prisma, MySQL.
+# This repository is for a Full Stack E-Commerce website + Dashboard & CMS built using Next.js 13 App Router, React, Tailwind, Prisma, MySQL.
 For DEMO, use [Stripe Testing Cards](https://stripe.com/docs/testing)
 
-### Key Features:
+# Key Features:
+
 - Utilizes Shadcn UI for the Admin!
 - The admin dashboard serves as both a CMS, Admin, and API.
 - Manages multiple vendors/stores through this single CMS. For example, we can have a "Shoe store," a "Laptop store," and a "Suit store," and the CMS will generate API routes for each individually.
