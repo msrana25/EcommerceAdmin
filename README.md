@@ -2,22 +2,22 @@
 For DEMO, use [Stripe Testing Cards](https://stripe.com/docs/testing)
 
 ### Key Features:
-Utilizes Shadcn UI for the Admin!
-The admin dashboard serves as both a CMS, Admin, and API.
-Manages multiple vendors/stores through this single CMS. For example, we can have a "Shoe store," a "Laptop store," and a "Suit store," and the CMS will generate API routes for each individually.
-Allows to create, update, and delete categories.
-Enables to create, update, and delete products.
-Supports uploading multiple images for products with the flexibility to change them whenever needed.
-Create, update, and delete filters such as "Color" and "Size" and match them in the "Product" creation form.
-Create, update, and delete "Billboards," which are prominent texts displayed on top of the page. These can be attached to a single category or used standalone. The Admin generates API routes for all of these cases.
-Offers a comprehensive search functionality across all categories, products, sizes, colors, and billboards with included pagination.
-Allows to control which products are marked as "featured," ensuring they appear on the homepage.
-Provides insights into your orders, sales, and more.
-Includes graphs to visualize your revenue.
-Incorporates Clerk Authentication.
-Supports order creation.
-Implements Stripe checkout and Stripe webhooks.
-Utilizes MySQL, Prisma, and PlanetScale for data management.
+- Utilizes Shadcn UI for the Admin!
+- The admin dashboard serves as both a CMS, Admin, and API.
+- Manages multiple vendors/stores through this single CMS. For example, we can have a "Shoe store," a "Laptop store," and a "Suit store," and the CMS will generate API routes for each individually.
+- Allows to create, update, and delete categories.
+- Enables to create, update, and delete products.
+- Supports uploading multiple images for products with the flexibility to change them whenever needed.
+- Create, update, and delete filters such as "Color" and "Size" and match them in the "Product" creation form.
+- Create, update, and delete "Billboards," which are prominent texts displayed on top of the page. These can be attached to a single category or used standalone. The Admin generates API routes for all of these cases.
+- Offers a comprehensive search functionality across all categories, products, sizes, colors, and billboards with included pagination.
+- Allows to control which products are marked as "featured," ensuring they appear on the homepage.
+- Provides insights into your orders, sales, and more.
+- Includes graphs to visualize your revenue.
+- Incorporates Clerk Authentication.
+- Supports order creation.
+- Implements Stripe checkout and Stripe webhooks.
+- Utilizes MySQL, Prisma, and PlanetScale for data management.
 
 ### Install packages
 
